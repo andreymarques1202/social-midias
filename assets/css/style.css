@@ -1,0 +1,97 @@
+@font-face {
+    font-family: inter-bold;
+    src: url(../fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: inter-regular;
+    src: url(../fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter-semibold;
+    src: url(../fonts/static/Inter-SemiBold.ttf);
+}
+
+body {
+    height: 80vh;
+    margin: 0;
+    background-color: #161616;
+    color: #f5f5f5;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 20px;
+    width: 30%;
+    background-color: #212121;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.image-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.image-link img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+h2 {
+    font-family: "inter-bold";
+    font-size: 1.7rem;
+}
+
+h5 {
+    font-family: "inter-semibold";
+    font-size: 1.1rem;
+    color:#7CFC00;
+    text-shadow: 1px 1px 2px #32cd32 ;
+    
+}
+
+#subtitle {
+    font-family: "inter-regular";
+}
+
+.buttons-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.buttons-link a {
+    background-color: #343434;
+    color: #f5f5f5;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "inter-semibold";
+    transition: 0.5s;
+}
+
+.buttons-link a:hover {
+    cursor: pointer;
+    background-color: #32cd32;
+    color: #212121;
+}
+
+footer {
+    text-align: center;
+    font-family: 'inter-regular';
+    margin-top: 20px;
+}
+
