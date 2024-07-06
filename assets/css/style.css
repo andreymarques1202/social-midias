@@ -95,3 +95,30 @@ footer {
     margin-top: 20px;
 }
 
+@media (max-width: 767px) {
+    .container {
+        width: 50%;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    h5 {
+        font-size: 0.8rem;
+    }
+
+    #subtitle {
+        font-size: 0.6rem;
+    }
+
+    .image-link img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .buttons-link {
+        font-size: 0.7rem;
+    }
+}
+
